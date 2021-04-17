@@ -1,0 +1,2 @@
+# Topical-Tracking-Indian-News-Websites
+This repository is to support the research community (for non-commercial purposes) to study the tracking obtain topical subpages from the homepage of a website in a semi-automated manner and study tracking across different topics. The codes open-sourced here are related to our research paper titled "Differential Tracking Across Topical Webpages of Indian News Media". However, these can be applied to other contexts and studies by minor modifications. 
