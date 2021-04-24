@@ -15,10 +15,7 @@ This repository is to support the research community (for non-commercial purpose
    ```
    topical_dictionary.csv
    ```
-3. DiBETS is a _Word2Vec-enhanced_ dictionary-based model. We use _model.bin_ file of the downloaded pre-trained Word2Vec model specified in the image below from the following website.
-   ```
-   [http://vectors.nlpl.eu/repository/](http://vectors.nlpl.eu/repository/)
-   ```
+3. DiBETS is a _Word2Vec-enhanced_ dictionary-based model. We use _model.bin_ file of the downloaded pre-trained Word2Vec model specified below from the website: [_http://vectors.nlpl.eu/repository/_](http://vectors.nlpl.eu/repository/):
    ![image](https://user-images.githubusercontent.com/30694521/115953533-aebf6680-a509-11eb-9ada-b9d2a4f23f75.png)
    
    
