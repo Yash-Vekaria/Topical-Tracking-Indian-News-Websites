@@ -2,25 +2,27 @@
 
 This repository is to support the research community (for non-commercial purposes) to obtain topical subpages from the homepage of a website in a semi-automated manner and study tracking across these different topical subpages. The codes open-sourced here are related to our research paper titled [_"Differential Tracking Across Topical Webpages of Indian News Media"_](https://nms.kcl.ac.uk/netsys/datasets/india-topic/). The codes and link to the tools used in our paper are detailed below. This work is an extension to our research titled [_"Under the Spotlight: Web Tracking in Indian Partisan News Websites"_](https://arxiv.org/pdf/2102.03656.pdf). For further details rearding this previous work, you may visit this [page](https://nms.kcl.ac.uk/netsys/datasets/india-tracking/).
 
+
 **Note: The topic labelled dataset of the subpages extracted from Indian News Websites by our model - DiBETS (Dictionary-Based Extraction of Topical Subpages) along with [OpenWPM](https://github.com/mozilla/OpenWPM) crawls and gathered cookie information can be requested from our dataset page [https://nms.kcl.ac.uk/netsys/datasets/india-topic/](https://nms.kcl.ac.uk/netsys/datasets/india-topic/) (Please cite our paper and abide to our listed T&C).**
+
 
 ### Pre-requisites
 1. Installing certain python packages is essential to run the below mentioned codes. Use the following command to install necessary python modules:
    ```
    pip install -r requirements.txt
    ```
-2. If your study is in Indian context and uses the same Indian News Websites that we used, then you may use the following manually generated dictionary from top 25 Indian News Websites (based on FB followers of their pages). For applying our work to some other context, you may refer to our dictionary and create a similar one for your context using top _x_ websites for the training purposes.
+2. If your study is in Indian context and uses the same Indian News Websites that we used, then you may use the following manually generated dictionary from top 25 Indian News Websites (based on followers of their FB pages). For applying our work to some other context, you may refer to our dictionary and create a similar one for your context using top _x_ websites for the training purposes.
    ```
    topical_dictionary.csv
    ```
-3. DiBETS is a _Word2Vec-enhanced_ dictionary-based model. We use the following website to use a pre-trained Word2Vec model.
-   ``
+3. DiBETS is a _Word2Vec-enhanced_ dictionary-based model. We use _model.bin_ file of the downloaded pre-trained Word2Vec model specified in the image below from the following website.
+   ```
    [http://vectors.nlpl.eu/repository/](http://vectors.nlpl.eu/repository/)
-   ``
-   We use the model.bin file from the following pre-trained model downloaded from the above link.
+   ```
+   ```
    ![image](https://user-images.githubusercontent.com/30694521/115953371-aadf1480-a508-11eb-8bb7-43f45a404949.png)
-
-
+   ```
+   
 ### DiBETS Methodology Implementation
 and the manually created Topical Dictionary for 
 1. `get_homepage_content.py` script checks if a input website's homepage URL is valid and crawls its content.
