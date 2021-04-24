@@ -20,7 +20,7 @@ This repository is to support the research community (for non-commercial purpose
    [http://vectors.nlpl.eu/repository/](http://vectors.nlpl.eu/repository/)
    ```
    ```
-   ![image](https://user-images.githubusercontent.com/30694521/115953371-aadf1480-a508-11eb-8bb7-43f45a404949.png)
+   ![image](https://user-images.githubusercontent.com/30694521/115953533-aebf6680-a509-11eb-9ada-b9d2a4f23f75.png)
    ```
    
 ### DiBETS Methodology Implementation
