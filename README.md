@@ -41,7 +41,7 @@ This repository is to support the research community (for non-commercial purpose
 4. `filter_internal_urls.py` script uses the parameters and associated cut-offs inferred using the above code. These cut-offs ensure that only section URLs are retained as a separate .txt file (i.e., article urls are rejected).
 5. `url_topical_categorization.py` script uses a manually generated topical dictionary and word2Vec approach to assign a topic to each of the filtered internal URLs for each website and predicts a single-best URL for each topic per website as the final output.
 
-For additional details of our DiBETS model, please refer to the paper. The paper PDF is available [here](https://arxiv.org/pdf/2103.04442.pdf).
+For additional details about the DiBETS model, please refer to our paper. The paper PDF is available [here](https://arxiv.org/pdf/2103.04442.pdf).
 
 ### Citation
 Please cite our papers:
