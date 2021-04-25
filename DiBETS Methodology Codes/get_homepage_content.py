@@ -31,7 +31,7 @@ def get_complete_url(url_test):
 # Url_list must contain urls with 'http', 'www.' and '.com' parts.
 
 # Input path to the csv containing all the homepage URLS of Websites
-input_urls_path = os.path.join(os.path.abspath(os.curdir),'websites_homepage_urls.txt')
+input_urls_path = os.path.join(os.path.abspath(os.pardir),'websites_homepage_urls.txt')
 with open(input_urls_path, 'r', encoding='utf-8') as furl:
     Url_list = sorted(furl.read().split('\n'))
 furl.close()
