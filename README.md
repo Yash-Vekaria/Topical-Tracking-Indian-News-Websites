@@ -23,7 +23,7 @@ This repository is to support the research community (for non-commercial purpose
    - `extracted_keywords`: Keywords and other related words/phrases extracted or identified based on the URL meta data (i.e., the words present in the URL itself) depending upon the topic to which the given internal URL seems related to as per the human experts' discretion.
    - `internal_urls`: The internal URLs of the train website extracted by DiBETS.
    - `manual_topic_label`: The topical label assigned by the human expert based on the topic to which the URL seems associated with. The expert may visit the actual website to assign the most suitable topic (in case meta-data doesn't present a clear picture).
-4. Create the following empty directories inside the folder `DiBETS Methodology Codes` (since these will be used by the DiBETS codes to generate and utilize the intermediate outputs).
+4. Create the following empty directories inside the folder `DiBETS Methodology Codes` before implementing DiBETS (since these will be used by the DiBETS codes to generate and utilize the intermediate outputs).
    * `HTML Dump`
    * `Internal URLs`
    * `External URLs`
