@@ -30,7 +30,7 @@ This repository is to support the research community (for non-commercial purpose
    * `Filtered URLs`
 5. Our study in Indian Context consisted of 112 Indian News Websites, whose homepage URLs were specified in the following _.txt_ file. However, for applying DiBETS to some other context, please specify the homepage URLs of those websites in this file.
    ```
-   
+   websites_homepage_urls.txt
    ```
    
    
