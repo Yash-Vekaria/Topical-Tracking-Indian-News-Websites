@@ -13,7 +13,7 @@ This repository is to support the research community (for non-commercial purpose
    ```
 2. DiBETS is a _Word2Vec-enhanced_ dictionary-based model. We use _model.bin_ file of the downloaded pre-trained Word2Vec model specified below from the website: [_http://vectors.nlpl.eu/repository/_](http://vectors.nlpl.eu/repository/):
    ![image](https://user-images.githubusercontent.com/30694521/115953533-aebf6680-a509-11eb-9ada-b9d2a4f23f75.png)
-3. If your study is in Indian context and uses the same Indian News Websites that we used, then you may use the following manually generated dictionary from top 25 Indian News Websites (based on followers of their FB pages). For applying our work to some other context, you may refer to our dictionary and create a similar one for your context using top _x_ websites for the training purposes.
+3. If your study is in Indian context and uses the same 112 Indian News Websites that we used, then you may use the following manually generated dictionary from top 25 Indian News Websites (based on followers of their FB pages). For applying our work to some other context, you may refer to our dictionary and create a similar one for your context using top _x_ websites for the training purposes.
    ```
    manual_topical_dictionary.csv
    ```
@@ -28,6 +28,10 @@ This repository is to support the research community (for non-commercial purpose
    * `Internal URLs`
    * `External URLs`
    * `Filtered URLs`
+5. Our study in Indian Context consisted of 112 Indian News Websites, whose homepage URLs were specified in the following _.txt_ file. However, for applying DiBETS to some other context, please specify the homepage URLs of those websites in this file.
+   ```
+   
+   ```
    
    
 ### DiBETS Methodology Implementation
