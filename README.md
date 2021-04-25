@@ -44,12 +44,22 @@ This repository is to support the research community (for non-commercial purpose
 For additional details of our DiBETS model, please refer to the paper. The paper PDF is available [here](https://arxiv.org/pdf/2103.04442.pdf).
 
 ### Citation
-Please cite our paper:
+Please cite our papers:
 ```
 @inproceedings{vekaria2021differential,
   title={Differential Tracking Across Topical Webpages of Indian News Media},
   author={Vekaria, Yash and Agarwal, Vibhor and Agarwal, Pushkal and Mahapatra, Sangeeta and Muthiah, Sakthi Balan and Sastry, Nishanth and Kourtellis, Nicolas},
   booktitle={Proceedings of the ACM WebSci},
   year={2021}
+}
+```
+```
+@misc{agarwal2021spotlight,
+title={Under the Spotlight: Web Tracking in Indian Partisan News Websites}, 
+author={Vibhor Agarwal and Yash Vekaria and Pushkal Agarwal and Sangeeta Mahapatra and Shounak Set and Sakthi Balan Muthiah and Nishanth Sastry and Nicolas Kourtellis},
+year={2021},
+eprint={2102.03656},
+archivePrefix={arXiv},
+primaryClass={cs.CY}
 }
 ```
