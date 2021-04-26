@@ -49,17 +49,15 @@ Please cite our papers:
 @inproceedings{vekaria2021differential,
   title={Differential Tracking Across Topical Webpages of Indian News Media},
   author={Vekaria, Yash and Agarwal, Vibhor and Agarwal, Pushkal and Mahapatra, Sangeeta and Muthiah, Sakthi Balan and Sastry, Nishanth and Kourtellis, Nicolas},
-  booktitle={Proceedings of the ACM WebSci},
+  booktitle={Proceedings of the 13th ACM Web Science Conference},
   year={2021}
 }
 ```
 ```
-@misc{agarwal2021spotlight,
-title={Under the Spotlight: Web Tracking in Indian Partisan News Websites}, 
-author={Vibhor Agarwal and Yash Vekaria and Pushkal Agarwal and Sangeeta Mahapatra and Shounak Set and Sakthi Balan Muthiah and Nishanth Sastry and Nicolas Kourtellis},
-year={2021},
-eprint={2102.03656},
-archivePrefix={arXiv},
-primaryClass={cs.CY}
+@inproceedings{agarwal2021under,
+  title={Under the Spotlight: Web Tracking in Indian Partisan News Websites},
+  author={Agarwal, Vibhor and Vekaria, Yash and Agarwal, Pushkal and Mahapatra, Sangeeta and Set, Shounak and Muthiah, Sakthi Balan and Sastry, Nishanth and Kourtellis, Nicolas},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  year={2021}
 }
 ```
