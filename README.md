@@ -1,14 +1,3 @@
-<style>
-img
-{
-    display:block; 
-    float:none; 
-    margin-left:auto;
-    margin-right:auto;
-    width:60%;
-}
-</style> 
-
 # Differential Tracking Across Topical Webpages of Indian News Media
 
 This repository is to support the research community (for non-commercial purposes) to obtain topical subpages from the homepage of a website in a semi-automated manner and study tracking across these different topical subpages. The codes open-sourced here are related to our research paper titled [_"Differential Tracking Across Topical Webpages of Indian News Media"_](https://nms.kcl.ac.uk/netsys/datasets/india-topic/). The codes and link to the tools used in our paper are detailed below. This work is an extension to our research titled [_"Under the Spotlight: Web Tracking in Indian Partisan News Websites"_](https://arxiv.org/pdf/2102.03656.pdf). For further details rearding this previous work, you may visit this [page](https://nms.kcl.ac.uk/netsys/datasets/india-tracking/).
@@ -16,7 +5,7 @@ This repository is to support the research community (for non-commercial purpose
 
 **Note: The topic labelled dataset of the subpages extracted from Indian News Websites by our model - DiBETS (Dictionary-Based Extraction of Topical Subpages) along with the [OpenWPM](https://github.com/mozilla/OpenWPM) crawls and gathered cookie information can be requested from our dataset page [https://nms.kcl.ac.uk/netsys/datasets/india-topic/](https://nms.kcl.ac.uk/netsys/datasets/india-topic/) (Please cite our paper and abide to our listed T&C).**
 
-<img src="https://user-images.githubusercontent.com/30694521/120550298-4e79e980-c412-11eb-91dd-a2b18a2ccfad.png">
+<img src="https://user-images.githubusercontent.com/30694521/120550298-4e79e980-c412-11eb-91dd-a2b18a2ccfad.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:60%">
 
 ### Pre-requisites
 1. Installing certain python packages is essential to run the below mentioned codes. Use the following command to install necessary python modules:
