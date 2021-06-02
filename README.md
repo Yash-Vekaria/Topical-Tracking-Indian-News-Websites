@@ -5,7 +5,9 @@ This repository is to support the research community (for non-commercial purpose
 
 **Note: The topic labelled dataset of the subpages extracted from Indian News Websites by our model - DiBETS (Dictionary-Based Extraction of Topical Subpages) along with the [OpenWPM](https://github.com/mozilla/OpenWPM) crawls and gathered cookie information can be requested from our dataset page [https://nms.kcl.ac.uk/netsys/datasets/india-topic/](https://nms.kcl.ac.uk/netsys/datasets/india-topic/) (Please cite our paper and abide to our listed T&C).**
 
-<img src="https://user-images.githubusercontent.com/30694521/120550298-4e79e980-c412-11eb-91dd-a2b18a2ccfad.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%">
+<p align="center">
+  <img width="550" height="550" src="https://user-images.githubusercontent.com/30694521/120550298-4e79e980-c412-11eb-91dd-a2b18a2ccfad.png">
+</p>
 
 ### Pre-requisites
 1. Installing certain python packages is essential to run the below mentioned codes. Use the following command to install necessary python modules:
