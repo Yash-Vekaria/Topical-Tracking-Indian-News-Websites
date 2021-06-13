@@ -61,6 +61,8 @@ Please cite our papers:
   title={Under the Spotlight: Web Tracking in Indian Partisan News Websites},
   author={Agarwal, Vibhor and Vekaria, Yash and Agarwal, Pushkal and Mahapatra, Sangeeta and Set, Shounak and Muthiah, Sakthi Balan and Sastry, Nishanth and Kourtellis, Nicolas},
   booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={15},
+  pages={26--37},
   year={2021}
 }
 ```
