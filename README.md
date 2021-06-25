@@ -49,11 +49,22 @@ For additional details about the DiBETS model, please refer to our paper. The pa
 ### Citation
 Please cite our papers:
 ```
-@inproceedings{vekaria2021differential,
-  title={Differential Tracking Across Topical Webpages of Indian News Media},
-  author={Vekaria, Yash and Agarwal, Vibhor and Agarwal, Pushkal and Mahapatra, Sangeeta and Muthiah, Sakthi Balan and Sastry, Nishanth and Kourtellis, Nicolas},
-  booktitle={Proceedings of the 13th ACM Web Science Conference},
-  year={2021}
+@inproceedings{10.1145/3447535.3462497,
+author = {Vekaria, Yash and Agarwal, Vibhor and Agarwal, Pushkal and Mahapatra, Sangeeta and Balan Muthiah, Sakthi and Sastry, Nishanth and Kourtellis, Nicolas},
+title = {Differential Tracking Across Topical Webpages of Indian News Media},
+year = {2021},
+isbn = {9781450383301},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3447535.3462497},
+doi = {10.1145/3447535.3462497},
+abstract = {Online user privacy and tracking have been extensively studied in recent years, especially due to privacy and personal data-related legislations in the EU and the USA, such as the General Data Protection Regulation, ePrivacy Regulation, and California Consumer Privacy Act. Research has revealed novel tracking and personally identifiable information leakage methods that first- and third-parties employ on websites around the world, as well as the intensity of tracking performed on such websites. However, for the sake of scaling to cover a large portion of the Web, most past studies focused on homepages of websites, and did not look deeper into the tracking practices on their topical subpages. The majority of studies focused on the Global North markets such as the EU and the USA. Large markets such as India, covering 20% of the world population and has no explicit privacy laws, have not been studied in this regard. We aim to address these gaps and focus on the following research questions: Is tracking on topical subpages of Indian news websites different from their homepage? Do third-party trackers prefer to track specific topics? How does this preference compare to the similarity of content shown on topical subpages? To answer these questions, we propose a novel method for semi-automatic extraction and categorization of Indian news topical subpages based on the details in their URLs. We study the identified topical subpages and compare them with their homepages with respect to the intensity of cookie injection and third-party embeddedness and type. We find differential user tracking among subpages, and between subpages and homepages. We also find a preferential attachment of third-party trackers to specific topics. Also, embedded third-parties tend to track specific subpages simultaneously, revealing possible user profiling in action. },
+booktitle = {13th ACM Web Science Conference 2021},
+pages = {299–308},
+numpages = {10},
+keywords = {Indian news websites, User web tracking, Topical tracking, Homepages, Topical subpages, Cookies, Third-party preferences},
+location = {Virtual Event, United Kingdom},
+series = {WebSci '21}
 }
 ```
 ```
